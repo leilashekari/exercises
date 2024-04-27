@@ -38,7 +38,7 @@ third_number = int(input('Enter Your third_Number :'))
 
 if first_number > second_number and first_number > third_number:
     print(f"first_number is : {first_number}")
-elif second_number > first_number and second_number > third_number:
+elif second_number > third_number:
     print(f"second_number is : {second_number}")
 else:
     print(f"third_number is : {third_number}")
